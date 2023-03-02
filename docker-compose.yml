@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+  user_bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python user_bot.py
+
+  main:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python main.py
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python web.py
+
+  money:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python money.py
+
+  market:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python market.py
