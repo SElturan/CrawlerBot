@@ -24,7 +24,6 @@ def get_stop_word():
     req = requests.get(f"{http_api}/spamwords/", headers=HEADERS)
     data = req.json()
     keyword = [response['word'] for response in data]
-    print(keyword)
     return keyword
 
 

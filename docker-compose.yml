@@ -6,27 +6,32 @@ services:
       context: .
       dockerfile: Dockerfile
     command: python user_bot.py
+    restart: always
 
   main:
     build:
       context: .
       dockerfile: Dockerfile
     command: python main.py
+    restart: always
 
   web:
     build:
       context: .
       dockerfile: Dockerfile
     command: python web.py
+    restart: always
 
   money:
     build:
       context: .
       dockerfile: Dockerfile
     command: python money.py
+    restart: always
 
   market:
     build:
       context: .
       dockerfile: Dockerfile
     command: python market.py
+    restart: always
