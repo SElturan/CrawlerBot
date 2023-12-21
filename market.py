@@ -35,7 +35,6 @@ async def start_handler(message: Message, state: FSMContext):
         await state.set_state(States.STARTED)
         return
     else:
-
         await message.answer("Бот не может быть активирован, так как у вас не оплачена категория.\nПодробнее: @prolead_bot")
         await state.set_state(States.STARTED)
 

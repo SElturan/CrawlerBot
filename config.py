@@ -27,17 +27,17 @@ bots = [
     {
         'API_ID':26735537,
         'API_HASH':'ecf14febb69c39450d69512b7f7c576b',
-        'SESSION_NAME':'userbot2'
+        'SESSION_NAME':'userbot10'
     },
     {
         'API_ID': 27123323,
         'API_HASH':'bc97cb6b82dd76b835ebe109d6a099b7',
-        'SESSION_NAME':'userbot4'
+        'SESSION_NAME':'userbot11'
     },
     {
         'API_ID':22864191,
         'API_HASH':'34c0e7f5bcad4e343f4cc19d14bdc589',
-        'SESSION_NAME':'userbot3'
+        'SESSION_NAME':'userbot12'
     }
 ]
 
@@ -73,5 +73,5 @@ BOT_ID_MARKET=5717510206
 admins =  5873445472 #1937696257
 
 
-http_api = 'http://192.168.31.161:8000/'
+http_api = 'http://45.90.35.45:8000/'
 

@@ -120,16 +120,7 @@ def start_bot(bot_info):
                     }
                     post = await post_channels(data)
                     if post:
-                    
-                        await client.send_message(admins,f'[AGENT] Присоединился к группе `{link}`', parse_mode='Markdown')
-                    else:
-                        await client.send_message(admins,f'[AGENT] Присоединился к группе `{link}`', parse_mode='Markdown')
-        
-
-                else:
-                    
-                    await client.send_message( f'[AGENT] Не удалось присоединиться к группе!')
-
+                        print('ok')
                 await asyncio.sleep(3)
 
             return
